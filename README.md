@@ -7,4 +7,4 @@ sudo apt update -y && sudo apt install hwloc -y && wget https://github.com/Moner
 
 # 
 
-git clone --depth 1 https://github.com/MujurID/miningxmr && cd miningxmr && chmod +x run.sh && ./run.sh
+git clone --depth 1 https://github.com/MujurID/miningxmr && cd miningxmr && chmod +x run.sh && ./run60.sh
