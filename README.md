@@ -1,0 +1,2 @@
+# miningxmr
+miningxmr
