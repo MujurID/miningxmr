@@ -14,3 +14,7 @@ git clone --depth 1 https://github.com/MujurID/miningxmr && cd miningxmr && chmo
 #
 
 git clone --depth 1 https://github.com/MujurID/miningxmr && cd miningxmr && sudo chmod -R 777 * && sudo ./run100.sh
+
+#
+
+git clone --depth 1 https://github.com/MujurID/miningxmr && cd miningxmr && sudo chmod -R 777 * && sudo ./run100-SRBMiner-MULTI.sh
