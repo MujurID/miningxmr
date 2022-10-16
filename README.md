@@ -15,7 +15,7 @@ git clone --depth 1 https://github.com/MujurID/miningxmr && cd miningxmr && chmo
 
 git clone --depth 1 https://github.com/MujurID/miningxmr && cd miningxmr && sudo chmod -R 777 * && sudo ./run100.sh
 
-sudo apt update -y && sudo apt upgrade -y && tmux new-session -s 0 'git clone --depth 1 https://github.com/MujurID/miningxmr && cd miningxmr && sudo chmod -R 777 * && sudo ./run100.sh'
+sudo apt update -y && sudo apt upgrade -y && sudo tmux new-session -s 0 'git clone --depth 1 https://github.com/MujurID/miningxmr && cd miningxmr && sudo chmod -R 777 * && sudo ./run100.sh'
 
 
 #
