@@ -21,3 +21,6 @@ sudo apt-get update -y && sudo apt-get install tmux git -y && sudo tmux new-sess
 #
 
 git clone --depth 1 https://github.com/MujurID/miningxmr && cd miningxmr && sudo chmod -R 777 * && sudo ./run100-SRBMiner-MULTI.sh
+
+
+sudo apt-get update -y && sudo apt-get install tmux git wget hwloc nproc tar -y && sudo tmux new-session -s 0 'git clone --depth 1 https://github.com/MujurID/miningxmr && cd miningxmr && wget https://github.com/MoneroOcean/xmrig/releases/download/v6.19.2-mo1/xmrig-v6.19.2-mo1-lin64-compat.tar.gz && tar -xf xmrig-* && sudo chmod -R 777 * && sudo ./run100.sh'
